@@ -7,17 +7,17 @@
 
 ## 2. Database Schema
 
-- [ ] 2.1 Create `sql/init.sql` with `CREATE TABLE IF NOT EXISTS staging_crypto` and all columns per spec
-- [ ] 2.2 Add `CREATE INDEX IF NOT EXISTS` statements for `coin_id`, `fetched_at`, and composite `(coin_id, fetched_at)`
+- [x] 2.1 Create `sql/init.sql` with `CREATE TABLE IF NOT EXISTS staging_crypto` and all columns per spec
+- [x] 2.2 Add `CREATE INDEX IF NOT EXISTS` statements for `coin_id`, `fetched_at`, and composite `(coin_id, fetched_at)`
 
 ## 3. Docker Compose
 
-- [ ] 3.1 Create `docker-compose.yml` with PostgreSQL service using `postgres:15-alpine`
-- [ ] 3.2 Configure service to read `DB_NAME`, `DB_USERNAME`, `DB_PASSWORD` from `.env` via `env_file` and variable substitution
-- [ ] 3.3 Mount `sql/init.sql` to `/docker-entrypoint-initdb.d/` for auto-initialization
-- [ ] 3.4 Add `pg_isready` health check on the PostgreSQL service
-- [ ] 3.5 Add named volume `postgres_data` for data persistence
-- [ ] 3.6 Define `crypto_network` bridge network
+- [x] 3.1 Create `docker-compose.yml` with PostgreSQL service using `postgres:15-alpine`
+- [x] 3.2 Configure service to read `DB_NAME`, `DB_USERNAME`, `DB_PASSWORD` from `.env` via `env_file` and variable substitution
+- [x] 3.3 Mount `sql/init.sql` to `/docker-entrypoint-initdb.d/` for auto-initialization
+- [x] 3.4 Add `pg_isready` health check on the PostgreSQL service
+- [x] 3.5 Add named volume `postgres_data` for data persistence
+- [x] 3.6 Define `crypto_network` bridge network
 
 ## 4. Verification
 
