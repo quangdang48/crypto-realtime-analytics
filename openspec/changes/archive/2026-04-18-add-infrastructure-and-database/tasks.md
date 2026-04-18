@@ -21,6 +21,6 @@
 
 ## 4. Verification
 
-- [ ] 4.1 Run `docker-compose up -d` and confirm PostgreSQL starts healthy
-- [ ] 4.2 Connect to the database and verify `staging_crypto` table and indexes exist
-- [ ] 4.3 Run `docker-compose down` then `docker-compose up -d` and verify data persists
+- [x] 4.1 Run `docker-compose up -d` and confirm PostgreSQL starts healthy
+- [x] 4.2 Connect to the database and verify `staging_crypto` table and indexes exist
+- [x] 4.3 Run `docker-compose down` then `docker-compose up -d` and verify data persists
