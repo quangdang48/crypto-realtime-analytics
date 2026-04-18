@@ -1,9 +1,9 @@
 ## 1. Project Configuration Files
 
-- [ ] 1.1 Add `DB_HOST` and `DB_PORT` to `.env` (currently only has `DB_NAME`, `DB_USERNAME`, `DB_PASSWORD`)
-- [ ] 1.2 Create `.env.example` with all required variables and placeholder values
-- [ ] 1.3 Create `.gitignore` excluding `.env`, `logs/`, `__pycache__/`, `*.duckdb`, `dbt/target/`, `dbt/dbt_packages/`
-- [ ] 1.4 Create `requirements.txt` with `requests`, `psycopg2-binary`, `python-dotenv`
+- [x] 1.1 Add `DB_HOST` and `DB_PORT` to `.env` (currently only has `DB_NAME`, `DB_USERNAME`, `DB_PASSWORD`)
+- [x] 1.2 Create `.env.example` with all required variables and placeholder values
+- [x] 1.3 Create `.gitignore` excluding `.env`, `logs/`, `__pycache__/`, `*.duckdb`, `dbt/target/`, `dbt/dbt_packages/`
+- [x] 1.4 Create `requirements.txt` with `requests`, `psycopg2-binary`, `python-dotenv`
 
 ## 2. Database Schema
 
